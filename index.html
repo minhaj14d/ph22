@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Delivery</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">FOOD</div>
+        <div class="logo"><img src="images/logo.png"></div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -22,7 +23,8 @@
     </header>
     <section class="hero">
         <div class="delivery-type">
-            <span>Bike Delivery</span>
+            <span>Bike Delivery <i id="bike-id" class="fa-solid fa-motorcycle"></i>
+            </span>
         </div>
         <h1>
             THE FASTEST <br>
@@ -37,28 +39,47 @@
     </section>
     <section class="menu">
         <div class="menu-item">
-            <img src="burger.jpg" alt="Burger">
+            <img src="images/burger.png" alt="Burger">
             <h3>Burger</h3>
             <p>Mushroom Sauce</p>
             <p class="price">$5.15</p>
         </div>
         <div class="menu-item">
-            <img src="food-combo.jpg" alt="Food Combo">
+            <img src="images/food-combo.png" alt="Food Combo">
             <h3>Food Combo</h3>
             <p>Mushroom Sauce</p>
             <p class="price">$9.15</p>
         </div>
         <div class="menu-item">
-            <img src="pizza.jpg" alt="Pizza">
+            <img src="images/pizza.png" alt="Pizza">
             <h3>Pizza</h3>
             <p>Mushroom Sauce</p>
             <p class="price">$6.15</p>
         </div>
         <div class="menu-item">
-            <img src="cake.jpg" alt="Cake">
+            <img src="images/cake.png" alt="Cake">
             <h3>Cake</h3>
             <p>Mushroom Sauce</p>
             <p class="price">$5.15</p>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-container">
+            <div class="footer-item">
+                <div class="icon clock-icon"></div>
+                <p>Today 10:00am - 10:00pm</p>
+                <span>Working time</span>
+            </div>
+            <div class="footer-item">
+                <div class="icon location-icon"></div>
+                <p>Mohammadpur, Dhaka</p>
+                <span>Our Location</span>
+            </div>
+            <div class="footer-item">
+                <div class="icon phone-icon"></div>
+                <p>+88 017 0000 0000</p>
+                <span>Phone Number</span>
+            </div>
         </div>
     </section>
 </body>

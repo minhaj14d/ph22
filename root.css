@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" );
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+:root {
+    --background-color: #1E1E1E;
+    --logo-primary-color: #FD6F00;
+    --logo-secondary-color: #8E8E8E;
+    --font-primary-color: #ffffff;
+    --font-secondary-color: #8E8E8E;
+    --star-color: #FD853A;
+    --button-color: #8e8e8e;
+    --qa-bg-color: #34261B;
+    --footer-color: #121212;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    color:var(--primary-color);
+}
+body{
+    background-color: var(--background-color);
+}
+
+#bike-id{
+    color: #FD6F00;
+    padding: 2px 2px;
+}
